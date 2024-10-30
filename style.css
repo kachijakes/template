@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #093c67;
+    --background-color: rgb(6, 6, 50);
+    --text-color: #9e0a0a;
+    --hover-color: rgb(197, 182, 182);
+    --shadow-color: rgba(0, 0, 0, 0.15);
+    --font-family: "Sedan SC", serif;
+    --font-weight: 400;
+    --font-style: normal;
+}
+.navbar{
+    background-color: var(--background-color);
+}
+.navbar .nav-link{
+color: var(--text-color);
+}
+.navbar .nav-link:hover{
+    color: var(--hover-color);
+}
+.btn1{
+    background-color: transparent;
+    color: antiquewhite;
+    border-style: none;
+}
+.btn1:hover{
+  padding: 10px 20px;
+  border-style: none;
+  border-radius: 5%;
+background-color: rgb(115, 3, 3);
+color: antiquewhite;
+transition: 0.8s ease-in-out;
+}
+.btn2{
+    padding: 10px 20px;
+    border-style: none;
+  border-radius: 5%;
+background-color: #9e0a0a;
+color: antiquewhite;
+}
+/* styling Home section */
+.home{
+    background-image: url("https://joeboy.netlify.app/images/campaign-creators-gMsnXqILjp4-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.content{
+    padding-top: 200px;
+}
+.content h2{
+    font-weight: 900;
+    text-shadow: 1px 1px 2px aliceblue;
+    font-size: 40px;
+}
+.content input{
+    width: 78%;
+    height: 71px;
+    border-style: none;
+    border-radius: 5px;
+}
+.content .btn3{
+    height: 71px;
+    width: 15%;
+    margin: -6px;
+    border-style: none;
+background-color: rgb(148, 4, 4);
+color: aliceblue;
+}
